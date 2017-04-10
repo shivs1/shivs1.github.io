@@ -116,7 +116,7 @@ h1 {
     font-size: 2em;
 }
 h2 {
-    margin: 0.03em 0;
+    margin: 0.01em 0;
     font-size: 1.5em;
 }
 h3 {
@@ -449,7 +449,8 @@ p {
     line-height: 25px;
 }
 a {
-    color: #73d0da
+    color: #ffffff;
+    font-weight: bold;
 }
 a:hover, a:focus {
     color: #73d0da;
@@ -618,6 +619,10 @@ section.video i {
     transition: color 300ms ease-in-out;
 }
 section.video h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+section.video h2 {
     font-weight: 400;
     font-size: 20px;
 }
